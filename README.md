@@ -1,2 +1,2 @@
-# ethdenver-one
-ethdenver-one
+# SmartBet
+SmartBet
