@@ -1,0 +1,159 @@
+{
+  "address": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "bytes",
+              "name": "moveData",
+              "type": "bytes"
+            },
+            {
+              "internalType": "uint256",
+              "name": "moveType",
+              "type": "uint256"
+            },
+            {
+              "internalType": "address",
+              "name": "player",
+              "type": "address"
+            }
+          ],
+          "internalType": "struct GameEngineTest.Move",
+          "name": "_move",
+          "type": "tuple"
+        }
+      ],
+      "name": "checkIsValidMove",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "combination",
+          "type": "bytes"
+        }
+      ],
+      "name": "getList",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "list",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "player",
+              "type": "address"
+            },
+            {
+              "internalType": "bytes",
+              "name": "combinationData",
+              "type": "bytes"
+            }
+          ],
+          "internalType": "struct LibSmartBet.Combination[]",
+          "name": "combinations",
+          "type": "tuple[]"
+        },
+        {
+          "components": [
+            {
+              "internalType": "bytes",
+              "name": "moveData",
+              "type": "bytes"
+            },
+            {
+              "internalType": "enum LibSmartBet.Moves",
+              "name": "moveType",
+              "type": "uint8"
+            },
+            {
+              "internalType": "address",
+              "name": "player",
+              "type": "address"
+            }
+          ],
+          "internalType": "struct LibSmartBet.Move",
+          "name": "move",
+          "type": "tuple"
+        },
+        {
+          "internalType": "address",
+          "name": "endCaller",
+          "type": "address"
+        }
+      ],
+      "name": "getWinner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x5d844ba6029e3cce3b622311d189811e7542c2c3436a8a59e86e42e7afb1a7b1",
+  "receipt": {
+    "to": null,
+    "from": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "contractAddress": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+    "transactionIndex": 0,
+    "gasUsed": "485336",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xdc08bcef2cd9128fed61f5e29aab526a89e7c9cf44068d315c6af4e885b9f6ba",
+    "transactionHash": "0x5d844ba6029e3cce3b622311d189811e7542c2c3436a8a59e86e42e7afb1a7b1",
+    "logs": [],
+    "blockNumber": 12,
+    "cumulativeGasUsed": "485336",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "57ec3976d11a2b6e33402339eb22cc99",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"components\":[{\"internalType\":\"bytes\",\"name\":\"moveData\",\"type\":\"bytes\"},{\"internalType\":\"uint256\",\"name\":\"moveType\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"player\",\"type\":\"address\"}],\"internalType\":\"struct GameEngineTest.Move\",\"name\":\"_move\",\"type\":\"tuple\"}],\"name\":\"checkIsValidMove\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes\",\"name\":\"combination\",\"type\":\"bytes\"}],\"name\":\"getList\",\"outputs\":[{\"internalType\":\"uint256[]\",\"name\":\"list\",\"type\":\"uint256[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"player\",\"type\":\"address\"},{\"internalType\":\"bytes\",\"name\":\"combinationData\",\"type\":\"bytes\"}],\"internalType\":\"struct LibSmartBet.Combination[]\",\"name\":\"combinations\",\"type\":\"tuple[]\"},{\"components\":[{\"internalType\":\"bytes\",\"name\":\"moveData\",\"type\":\"bytes\"},{\"internalType\":\"enum LibSmartBet.Moves\",\"name\":\"moveType\",\"type\":\"uint8\"},{\"internalType\":\"address\",\"name\":\"player\",\"type\":\"address\"}],\"internalType\":\"struct LibSmartBet.Move\",\"name\":\"move\",\"type\":\"tuple\"},{\"internalType\":\"address\",\"name\":\"endCaller\",\"type\":\"address\"}],\"name\":\"getWinner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/GameEngine.sol\":\"GameEngineTest\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/GameEngine.sol\":{\"content\":\"pragma solidity ^0.8.17;\\n\\nimport {IGameEngine} from \\\"./interfaces/IGameEngine.sol\\\";\\nimport {LibSmartBet} from \\\"./libraries/LibSmartBet.sol\\\";\\ncontract GameEngine is IGameEngine {\\n    function checkIsFinalMove(LibSmartBet.Move memory move) external view returns (bool) {\\n        return (move.moveType == LibSmartBet.Moves.FinalMove);\\n    }\\n    function getWinner(LibSmartBet.Combination[] memory combinations, LibSmartBet.Move memory move, address endCaller) external pure returns (address){\\n        (uint256[] memory combination1) = abi.decode(combinations[0].combinationData,(uint256[]));\\n        (uint256[] memory combination2) = abi.decode(combinations[1].combinationData,(uint256[]));\\n        address player1 = combinations[0].player;\\n        address player2 = combinations[1].player;\\n        (uint256 qty, uint256 num) = abi.decode(move.moveData,(uint256,uint256));\\n        uint256 _qty;\\n        for(uint256 i=0;i<combination1.length;i++){\\n            if(combination1[i]==num){\\n                _qty++;\\n            }\\n        }\\n        for(uint256 i=0;i<combination2.length;i++){\\n            if(combination2[i]==num){\\n                _qty++;\\n            }\\n        }\\n        if(_qty >= qty ){\\n            if(player1 == endCaller){\\n                return player2;\\n            }else{\\n                return player1;\\n            }\\n        }\\n        return endCaller;\\n    }\\n    /**\\n     * @dev this is a customizable function\\n     * @param previousMove - last move done\\n     * @param newMove - incoming move\\n     * @notice checks if a move is valid based on the previous move\\n     *         in this example, qty should be less than 6 and number should be from 1-6\\n     *         also the incoming move has to be greater than the previous one\\n     *         the first move starts with at least qty 2 or num 2\\n     */\\n    function checkIsValidMove(LibSmartBet.Move memory previousMove, LibSmartBet.Move memory newMove) external pure returns (bool){\\n        (uint256 qty, uint256 num) = abi.decode(newMove.moveData,(uint256,uint256));\\n        if(newMove.moveType == LibSmartBet.Moves.FirstMove){\\n            return (qty >= 2 && num >= 2 && qty <= 12 && num <= 6);\\n        }\\n        (uint256 _qty, uint256 _num) = abi.decode(previousMove.moveData,(uint256,uint256));\\n        return(qty + num > _qty + _num && qty < 12 && num < 6);\\n        // return true;\\n    }\\n \\n}\\n\\ncontract GameEngineTest {\\n    struct Move{\\n        bytes moveData;\\n        uint256 moveType;\\n        address player;\\n    }\\n\\n    function checkIsValidMove(Move memory _move) external view returns (uint256, uint256) {\\n        (uint256 qty,uint256 number) = abi.decode(_move.moveData,(uint256,uint256));\\n        return (qty, number);\\n    }\\n    function getList(bytes memory combination) external view returns (uint256[] memory list) {\\n        (list) = abi.decode(combination,(uint256[]));\\n    }\\n    function getWinner(LibSmartBet.Combination[] memory combinations, LibSmartBet.Move memory move, address endCaller) external pure returns (address){\\n        (uint256[] memory combination1) = abi.decode(combinations[0].combinationData,(uint256[]));\\n        (uint256[] memory combination2) = abi.decode(combinations[1].combinationData,(uint256[]));\\n        address player1 = combinations[0].player;\\n        address player2 = combinations[1].player;\\n        (uint256 qty, uint256 num) = abi.decode(move.moveData,(uint256,uint256));\\n        uint256 _qty;\\n        for(uint256 i=0;i<combination1.length;i++){\\n            if(combination1[i]==num){\\n                _qty++;\\n            }\\n        }\\n        for(uint256 i=0;i<combination2.length;i++){\\n            if(combination2[i]==num){\\n                _qty++;\\n            }\\n        }\\n        if(_qty >= qty ){\\n            if(player1 == endCaller){\\n                return player2;\\n            }else{\\n                return player1;\\n            }\\n        }\\n        return endCaller;\\n    }\\n}\",\"keccak256\":\"0x9fbe1f3ea4e6bddaba84d7d56a93d7c7ff57b94cc8aef9ebead404ac54a3082e\"},\"contracts/interfaces/IGameEngine.sol\":{\"content\":\"pragma solidity ^0.8.0;\\n\\nimport {LibSmartBet} from \\\"../libraries/LibSmartBet.sol\\\";\\ninterface IGameEngine {\\n    function checkIsValidMove(LibSmartBet.Move memory,LibSmartBet.Move memory) external view returns (bool);\\n    function checkIsFinalMove(LibSmartBet.Move memory) external view returns (bool);\\n    function getWinner(LibSmartBet.Combination[] memory, LibSmartBet.Move memory, address) external view returns (address);\\n}\",\"keccak256\":\"0x97fabceb7057145b38643b654c2e2da1609f647cab57a8803e0c5dc0dee63bd7\"},\"contracts/libraries/LibSmartBet.sol\":{\"content\":\"pragma solidity ^0.8.17;\\n\\nlibrary LibSmartBet {\\n\\n    // customisable\\n    enum Moves{\\n        PlayMove, //  a normal move\\n        FinalMove, // a move that calls the checker\\n        FirstMove //  a first move ( skips some checkers )\\n    }\\n    bytes32 constant STORAGE_POSITION = keccak256(\\\"g7dao.eth.storage.SmartBet\\\");\\n    \\n\\n    struct Game {\\n        address tokenAddr; // address of the 1155 to mint to the winner\\n        uint256 validUntil; // deadline for members of the DAO to play the game\\n        uint256[] rules; // list of rules the game is based on\\n        string cid; // CID of the ipfs proposal we want to share\\n    }\\n    struct Combination {\\n        address player; // the playet to whom this combination belongs\\n        bytes combinationData;  // combination data is customizable i.e. (uint256[])\\n    }\\n    struct Session {\\n        address[] players; // list of players in the session\\n        bytes32[] combinationHashes; // list of inital combinations\\n        uint256 turnOf; //index of the player who plays now\\n        bool canPlay; //whether the game can be started\\n        uint256 gameId; // id of the game this is playing for \\n        bool finalStep; // whether this is the final step , will require you to submit combinations \\n        bool isActive; // will be inactive after the session was closed\\n        address winner; // the winner of the closed session\\n        uint256 moveCount;\\n    }\\n    struct Move {\\n        bytes moveData; // move data is customizable i.e. (uint256, uint256)\\n        Moves moveType; // type of the move\\n        address player; // player that executes a move\\n    }\\n    struct SmartBetStorage {\\n        address movesRegistry; // contract containing a list of declared / available moves\\n        address gameEngine; // contract containing the logic to choose the winner of the game\\n        uint256 gameCount; // keeps track of the number of games\\n        uint256 sessionCount; // keeps track of the number of sessions\\n\\n        //      gameId             addr      yes/no\\n        mapping(uint256 => mapping(address => bool)) hasPlayedGame; // tracks weather a player has played the game\\n\\n        //      sessionId   CombinationData\\n        mapping(uint256 => Combination[]) combinationBook; // combinations of the players of each session\\n\\n        //      gameId     gameData\\n        mapping(uint256 => Game) gameBook; // list of games in the contract\\n\\n        //      sessionId    SessionData \\n        mapping(uint256  => Session) sessionBook; // list of sessions in the contract\\n\\n        //      sessionId  Move\\n        mapping(uint256 => Move) sessionCurrMove; // tracks the current move of a session\\n    }\\n\\n    function smartBetStorage()\\n        internal\\n        pure\\n        returns (SmartBetStorage storage ds)\\n    {\\n        bytes32 position = STORAGE_POSITION;\\n        assembly {\\n            ds.slot := position\\n        }\\n    }\\n}\",\"keccak256\":\"0x069094218c008fb40e2c0af6c1da9dc627c705f6ee0c588073c845b2eb3a49d3\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506107d2806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c80636047b7cb14610046578063c4a2b0c614610073578063c80f78f41461009e575b600080fd5b6100596100543660046103e1565b6100be565b604080519283526020830191909152015b60405180910390f35b6100866100813660046104fd565b6100e8565b6040516001600160a01b03909116815260200161006a565b6100b16100ac366004610629565b6102a6565b60405161006a9190610666565b60008060008084600001518060200190518101906100dc91906106aa565b90969095509350505050565b600080846000815181106100fe576100fe6106ce565b60200260200101516020015180602001905181019061011d91906106e4565b9050600085600181518110610134576101346106ce565b60200260200101516020015180602001905181019061015391906106e4565b905060008660008151811061016a5761016a6106ce565b602002602001015160000151905060008760018151811061018d5761018d6106ce565b602002602001015160000151905060008088600001518060200190518101906101b691906106aa565b90925090506000805b875181101561020857828882815181106101db576101db6106ce565b6020026020010151036101f657816101f281610775565b9250505b8061020081610775565b9150506101bf565b5060005b86518110156102555782878281518110610228576102286106ce565b602002602001015103610243578161023f81610775565b9250505b8061024d81610775565b91505061020c565b5082811061029457886001600160a01b0316856001600160a01b031603610285578397505050505050505061029f565b8497505050505050505061029f565b889750505050505050505b9392505050565b6060818060200190518101906102bc91906106e4565b92915050565b634e487b7160e01b600052604160045260246000fd5b6040516060810167ffffffffffffffff811182821017156102fb576102fb6102c2565b60405290565b6040805190810167ffffffffffffffff811182821017156102fb576102fb6102c2565b604051601f8201601f1916810167ffffffffffffffff8111828210171561034d5761034d6102c2565b604052919050565b600082601f83011261036657600080fd5b813567ffffffffffffffff811115610380576103806102c2565b610393601f8201601f1916602001610324565b8181528460208386010111156103a857600080fd5b816020850160208301376000918101602001919091529392505050565b80356001600160a01b03811681146103dc57600080fd5b919050565b6000602082840312156103f357600080fd5b813567ffffffffffffffff8082111561040b57600080fd5b908301906060828603121561041f57600080fd5b6104276102d8565b82358281111561043657600080fd5b61044287828601610355565b8252506020830135602082015261045b604084016103c5565b604082015295945050505050565b600067ffffffffffffffff821115610483576104836102c2565b5060051b60200190565b60006060828403121561049f57600080fd5b6104a76102d8565b9050813567ffffffffffffffff8111156104c057600080fd5b6104cc84828501610355565b8252506020820135600381106104e157600080fd5b60208201526104f2604083016103c5565b604082015292915050565b60008060006060848603121561051257600080fd5b833567ffffffffffffffff8082111561052a57600080fd5b818601915086601f83011261053e57600080fd5b8135602061055361054e83610469565b610324565b82815260059290921b8401810191818101908a84111561057257600080fd5b8286015b848110156105ed5780358681111561058d57600080fd5b87016040818e03601f190112156105a45760008081fd5b6105ac610301565b6105b78683016103c5565b81526040820135888111156105cc5760008081fd5b6105da8f8883860101610355565b8288015250845250918301918301610576565b509750508701359250508082111561060457600080fd5b506106118682870161048d565b925050610620604085016103c5565b90509250925092565b60006020828403121561063b57600080fd5b813567ffffffffffffffff81111561065257600080fd5b61065e84828501610355565b949350505050565b6020808252825182820181905260009190848201906040850190845b8181101561069e57835183529284019291840191600101610682565b50909695505050505050565b600080604083850312156106bd57600080fd5b505080516020909101519092909150565b634e487b7160e01b600052603260045260246000fd5b600060208083850312156106f757600080fd5b825167ffffffffffffffff81111561070e57600080fd5b8301601f8101851361071f57600080fd5b805161072d61054e82610469565b81815260059190911b8201830190838101908783111561074c57600080fd5b928401925b8284101561076a57835182529284019290840190610751565b979650505050505050565b60006001820161079557634e487b7160e01b600052601160045260246000fd5b506001019056fea2646970667358221220c9d00d8410d161265a5cdd2db76e1bce2adfa8323d27b3f8bd4f556f08e1844864736f6c63430008110033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c80636047b7cb14610046578063c4a2b0c614610073578063c80f78f41461009e575b600080fd5b6100596100543660046103e1565b6100be565b604080519283526020830191909152015b60405180910390f35b6100866100813660046104fd565b6100e8565b6040516001600160a01b03909116815260200161006a565b6100b16100ac366004610629565b6102a6565b60405161006a9190610666565b60008060008084600001518060200190518101906100dc91906106aa565b90969095509350505050565b600080846000815181106100fe576100fe6106ce565b60200260200101516020015180602001905181019061011d91906106e4565b9050600085600181518110610134576101346106ce565b60200260200101516020015180602001905181019061015391906106e4565b905060008660008151811061016a5761016a6106ce565b602002602001015160000151905060008760018151811061018d5761018d6106ce565b602002602001015160000151905060008088600001518060200190518101906101b691906106aa565b90925090506000805b875181101561020857828882815181106101db576101db6106ce565b6020026020010151036101f657816101f281610775565b9250505b8061020081610775565b9150506101bf565b5060005b86518110156102555782878281518110610228576102286106ce565b602002602001015103610243578161023f81610775565b9250505b8061024d81610775565b91505061020c565b5082811061029457886001600160a01b0316856001600160a01b031603610285578397505050505050505061029f565b8497505050505050505061029f565b889750505050505050505b9392505050565b6060818060200190518101906102bc91906106e4565b92915050565b634e487b7160e01b600052604160045260246000fd5b6040516060810167ffffffffffffffff811182821017156102fb576102fb6102c2565b60405290565b6040805190810167ffffffffffffffff811182821017156102fb576102fb6102c2565b604051601f8201601f1916810167ffffffffffffffff8111828210171561034d5761034d6102c2565b604052919050565b600082601f83011261036657600080fd5b813567ffffffffffffffff811115610380576103806102c2565b610393601f8201601f1916602001610324565b8181528460208386010111156103a857600080fd5b816020850160208301376000918101602001919091529392505050565b80356001600160a01b03811681146103dc57600080fd5b919050565b6000602082840312156103f357600080fd5b813567ffffffffffffffff8082111561040b57600080fd5b908301906060828603121561041f57600080fd5b6104276102d8565b82358281111561043657600080fd5b61044287828601610355565b8252506020830135602082015261045b604084016103c5565b604082015295945050505050565b600067ffffffffffffffff821115610483576104836102c2565b5060051b60200190565b60006060828403121561049f57600080fd5b6104a76102d8565b9050813567ffffffffffffffff8111156104c057600080fd5b6104cc84828501610355565b8252506020820135600381106104e157600080fd5b60208201526104f2604083016103c5565b604082015292915050565b60008060006060848603121561051257600080fd5b833567ffffffffffffffff8082111561052a57600080fd5b818601915086601f83011261053e57600080fd5b8135602061055361054e83610469565b610324565b82815260059290921b8401810191818101908a84111561057257600080fd5b8286015b848110156105ed5780358681111561058d57600080fd5b87016040818e03601f190112156105a45760008081fd5b6105ac610301565b6105b78683016103c5565b81526040820135888111156105cc5760008081fd5b6105da8f8883860101610355565b8288015250845250918301918301610576565b509750508701359250508082111561060457600080fd5b506106118682870161048d565b925050610620604085016103c5565b90509250925092565b60006020828403121561063b57600080fd5b813567ffffffffffffffff81111561065257600080fd5b61065e84828501610355565b949350505050565b6020808252825182820181905260009190848201906040850190845b8181101561069e57835183529284019291840191600101610682565b50909695505050505050565b600080604083850312156106bd57600080fd5b505080516020909101519092909150565b634e487b7160e01b600052603260045260246000fd5b600060208083850312156106f757600080fd5b825167ffffffffffffffff81111561070e57600080fd5b8301601f8101851361071f57600080fd5b805161072d61054e82610469565b81815260059190911b8201830190838101908783111561074c57600080fd5b928401925b8284101561076a57835182529284019290840190610751565b979650505050505050565b60006001820161079557634e487b7160e01b600052601160045260246000fd5b506001019056fea2646970667358221220c9d00d8410d161265a5cdd2db76e1bce2adfa8323d27b3f8bd4f556f08e1844864736f6c63430008110033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [],
+    "types": null
+  }
+}
